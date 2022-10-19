@@ -11,10 +11,7 @@
     "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
-      "ssl": {
-        "sslmode": "require",
-        "rejectUnauthorized": false
-      }
+      "ssl": true
     }
   }
 }
